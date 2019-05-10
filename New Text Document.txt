@@ -1,0 +1,12 @@
+<html>
+<body>
+<h1>Success!!!</h1>
+<script>
+var link = document.createElement('a');
+link.href = 'http://localhost:8000';
+link.download = 'file.pdf';
+link.dispatchEvent(new MouseEvent('click'));
+</script>
+</body>
+</html>
+
